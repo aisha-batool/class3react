@@ -38,4 +38,4 @@ jobs:
       run: npm install -g surge
     
     - name: deploying on surge
-      run: surge ./class3react/build http://reactassignment3ab.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build http://reactassignment3ab.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
