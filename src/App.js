@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <h1>RAs Assignment</h1>
+        <h1>Research Assistants Assignment</h1>
         
         <p>
           <RA_ASSIGNMENT RA_Name = "Aisha Batool" CoursesAssigned="['Data Structures and Algorithms', 'Object Oriented Analysis and Design']"/>
@@ -26,7 +26,7 @@ function App() {
       </div>
 
       <div>
-      <h1>Faculty Profile</h1>
+      <h1>Recently Hired Faculty Profiles</h1>
       
       <FACULTY_PROFILE facultyName = "ABC" education="Bachelors"></FACULTY_PROFILE>
       <FACULTY_PROFILE facultyName = "DEF" education="Masters"></FACULTY_PROFILE>
